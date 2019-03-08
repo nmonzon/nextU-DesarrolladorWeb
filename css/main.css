@@ -8,19 +8,25 @@ auxiliar:FF6640
 
 
 /*----------------ETIQUETAS----------------*/
+*{
+    margin: 0;
+}
 body{
     width: 70%;
 }
-h1{
-    font-size: 250%;
+h1,h2,h3,h4,h5,h6{
     text-align: center;
     letter-spacing: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: white !important;
+}
+h1{
+    font-size: 250%;
     line-height: 2em;
     color: white;
 }
 h2{
     font-size: 200%;
-    text-align: left;
 }
 a{
     text-decoration: none; /*le quita el subrayado*/
@@ -68,4 +74,17 @@ a:active{/*cuando das click osea esta activo, podes mantener el click para verlo
     color: white;
     text-decoration: underline;
     font-style: italic;
+}
+
+/*----------------REGLAS ANIDADAS----------------*/
+#equivalentes a{
+    color: yellow;
+    text-decoration: underline;
+}
+
+ol li{
+    list-style: decimal;
+}
+ol ol li{
+    list-style: lower-alpha;
 }
