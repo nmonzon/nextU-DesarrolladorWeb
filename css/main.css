@@ -45,6 +45,16 @@ a:active{/*cuando das click osea esta activo, podes mantener el click para verlo
     color: white;
     background-color: orange;
 }
+
+p{
+    /*margin: 1em 2em 3em 4em; 1em es un margen de 16 px, Por trbl ->aca seria 16 arriba, 32px derecha, 48px abajo y 64px izq*/
+    /*margin: 1em 2em;  aca 1em seria arriba abajo, 2em seria izquierda derecha.*/
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 3em;
+    margin-bottom: 1em;
+    border: 1px dashed #000;  /*dashed son entre lineas punteadas*/
+}
 /*----------------IDENTIFICADORES----------------*/
 #contenido{
     background-color: #FFE828;
