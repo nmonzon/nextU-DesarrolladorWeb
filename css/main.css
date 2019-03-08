@@ -5,6 +5,9 @@ equivalente:FFA60C
 piepagina:E87B42
 auxiliar:FF6640
 */
+
+
+/*----------------ETIQUETAS----------------*/
 body{
     width: 70%;
 }
@@ -36,6 +39,7 @@ a:active{/*cuando das click osea esta activo, podes mantener el click para verlo
     color: white;
     background-color: orange;
 }
+/*----------------IDENTIFICADORES----------------*/
 #contenido{
     background-color: #FFE828;
     border: 1px solid black;
@@ -55,4 +59,13 @@ a:active{/*cuando das click osea esta activo, podes mantener el click para verlo
 #piepagina{
     background-color: #E87B42;
     border: 1px solid #cccccc;       
+}
+
+
+/*----------------CLASES----------------*/
+.resaltar{
+    background-color: green;
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
 }
