@@ -24,6 +24,10 @@ h1{
     font-size: 2.5em; /*si te equivocas y pones espacios no te toma este tamaño*/
     line-height: 2em;
     color: white;
+    /*border: 2px groove #f60;*/
+    margin: 0 4em;
+    border-bottom: 5px solid #f63;
+    
 }
 h2{
     font-size: 200%; /*este % es respecto al tamaño base de la fuente que es 16, asique seria de 32 para 200%*/
@@ -53,28 +57,27 @@ p{
     margin-left: 2em;
     margin-right: 3em;
     margin-bottom: 1em;
-    border: 1px dashed #000;  /*dashed son entre lineas punteadas*/
+    /*border: 5px dashed #000; */ /*dashed son entre lineas punteadas, dotted es entre puntos punteados, dsp esta double para border doble*/
+}
+img{
+    border: 10px solid #f60;
 }
 /*----------------IDENTIFICADORES----------------*/
 #contenido{
     background-color: #FFE828;
-    border: 1px solid black;
     font-family: Georgia, 'Times New Roman', Times, serif;       
 }
 #encabezado{
-    background-color: #E8B825;
-    border: 1px solid green;  
+    background-color: #E8B825; 
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
 #equivalentes{
     background-color: #FFA60C;
-    border: 1px solid #cccccc;
     font-family: 'Courier New', Courier, monospace;
 }
 #piepagina{
-    background-color: #E87B42;
-    border: 1px solid #cccccc;       
+    background-color: #E87B42;       
 }
 
 
