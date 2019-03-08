@@ -1,0 +1,21 @@
+
+            body{
+                width: 70%;
+            }
+            #contenido{
+                background-color: #ffff00;
+                border: 1px solid #cccccc;       
+            }
+            #encabezado{
+                background-color: blueviolet;
+                border: 1px solid #cccccc;  
+                color: #fff;     
+            }
+            #equivalentes{
+                background-color: chartreuse;
+                border: 1px solid #cccccc;       
+            }
+            #piepagina{
+                background-color: chocolate;
+                border: 1px solid #cccccc;       
+            }
