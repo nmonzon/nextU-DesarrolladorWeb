@@ -8,18 +8,31 @@ auxiliar:FF6640
 body{
     width: 70%;
 }
+h1{
+    font-size: 250%;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 2em;
+}
+h2{
+    font-size: 200%;
+    text-align: left;
+}
 #contenido{
     background-color: #FFE828;
-    border: 1px solid black;       
+    border: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;       
 }
 #encabezado{
     background-color: #E8B825;
     border: 1px solid green;  
-    color: #fff;     
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #equivalentes{
     background-color: #FFA60C;
-    border: 1px solid #cccccc;       
+    border: 1px solid #cccccc;
+    font-family: 'Courier New', Courier, monospace;
 }
 #piepagina{
     background-color: #E87B42;
