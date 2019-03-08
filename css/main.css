@@ -18,6 +18,23 @@ h2{
     font-size: 200%;
     text-align: left;
 }
+a{
+    text-decoration: none; /*le quita el subrayado*/
+}
+a:link{/*a:link son los anclas aun no visitados*/
+    color: #fff;
+}
+a:visited{
+    color: red;
+}
+a:hover{/*cuando esta el cursor encima*/
+    color: blue;
+    text-decoration: underline;
+}
+a:active{/*cuando das click osea esta activo, podes mantener el click para verlo tmb*/
+    color: white;
+    background-color: orange;
+}
 #contenido{
     background-color: #FFE828;
     border: 1px solid black;
