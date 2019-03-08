@@ -17,16 +17,16 @@ body{
 h1,h2,h3,h4,h5,h6{
     text-align: center;
     letter-spacing: 5px;
-    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-family: Georgia, 'Times New Roman', Times, serif;/*el times new roman esta entre '' por tener espacios*/
     color: white !important;
 }
 h1{
-    font-size: 250%;
+    font-size: 2.5em; /*si te equivocas y pones espacios no te toma este tamaño*/
     line-height: 2em;
     color: white;
 }
 h2{
-    font-size: 200%;
+    font-size: 200%; /*este % es respecto al tamaño base de la fuente que es 16, asique seria de 32 para 200%*/
 }
 a{
     text-decoration: none; /*le quita el subrayado*/
