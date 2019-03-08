@@ -1,21 +1,27 @@
-
-            body{
-                width: 70%;
-            }
-            #contenido{
-                background-color: #ffff00;
-                border: 1px solid #cccccc;       
-            }
-            #encabezado{
-                background-color: blueviolet;
-                border: 1px solid #cccccc;  
-                color: #fff;     
-            }
-            #equivalentes{
-                background-color: chartreuse;
-                border: 1px solid #cccccc;       
-            }
-            #piepagina{
-                background-color: chocolate;
-                border: 1px solid #cccccc;       
-            }
+/* 
+contenido:FFE828
+encabezado:E8B825
+equivalente:FFA60C
+piepagina:E87B42
+auxiliar:FF6640
+*/
+body{
+    width: 70%;
+}
+#contenido{
+    background-color: #FFE828;
+    border: 1px solid black;       
+}
+#encabezado{
+    background-color: #E8B825;
+    border: 1px solid green;  
+    color: #fff;     
+}
+#equivalentes{
+    background-color: #FFA60C;
+    border: 1px solid #cccccc;       
+}
+#piepagina{
+    background-color: #E87B42;
+    border: 1px solid #cccccc;       
+}
