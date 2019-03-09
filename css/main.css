@@ -82,15 +82,29 @@ img{
 }
 #menu li{
     display: inline;
+    margin: 0;
 }
 #menu{
-    margin-top: 10px;
+    text-align: center;
+    color: black;
+    padding: 5px 10px 4px 10px;
+    border-bottom: #8c8c8c;
+    /*margin-top: 10px;
     margin-left: 200px;
     margin-bottom: 0px;
-    padding: 0;
+    padding: 0;*/
 }
 #menu a {
     color: #000;
+    background-color: #ffeda0;
+    padding: 4px 8px 4px 8px;
+    border: 1px solid #8c8c8c;
+}
+#menu a:hover, #diosa #op2 a{
+    text-decoration: none;
+    color: #000;
+    background-color: pink;
+    border-bottom: none;
 }
 #encabezado{
     background-color: palevioletred; 
