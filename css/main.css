@@ -80,11 +80,29 @@ img{
     background-color: #FFE828;
     font-family: Georgia, 'Times New Roman', Times, serif;       
 }
+#menu li{
+    display: inline;
+}
+#menu{
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+#menu a {
+    color: #000;
+}
 #encabezado{
-    background-color: #E8B825; 
+    background-color: palevioletred; 
+    padding: 20px;
+    padding-bottom: 0;
+}
+#articulo{
+    background-color:pink; 
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
+    padding-top: 10px;
 }
 #equivalentes{
     background-color: #FFA60C;
