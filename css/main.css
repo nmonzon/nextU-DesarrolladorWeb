@@ -12,7 +12,7 @@ auxiliar:FF6640
     margin: 0;
 }
 body{
-    width: 70%;
+    
 }
 h1,h2,h3,h4,h5,h6{
     text-align: center;
@@ -67,6 +67,8 @@ img{
 }
 /*----------------IDENTIFICADORES----------------*/
 #contenido{
+    width: 80%;
+    margin: 0 auto; /*el auto lo centra a izquierda y derecha en este caso*/
     background-color: #FFE828;
     font-family: Georgia, 'Times New Roman', Times, serif;       
 }
