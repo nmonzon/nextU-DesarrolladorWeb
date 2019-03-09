@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>formato fijo</title>
+        <!---->
+        <style>
+            h1,h2,h3,h4,h5,h6,p,html,body{
+                margin: 0;
+                padding: 0;
+            }
+            html,body{
+                background-color: #fff;
+            }
+            #wrapper{
+                width: 960px;
+                height: 700px;
+                background-color: #ff0;
+                margin: 0 auto;
+            }
+            #encabezado{
+                height: 100px;
+                background-color: #f29f05;
+            }
+            #contenido{
+                height: 520px;
+                background-color: #f2B705;
+            }
+            #piepagina{
+                height: 80px;
+                background-color: #733702;
+            }
+            #izq{
+                float: left;
+                background-color: #401801;
+                width:512px;
+                height: 520px;
+                margin-bottom:0;
+                margin-left: 32px;
+                margin-right: 16px;
+                margin-top: 0;
+            }
+            #der{
+                float: right;
+                background-color: #401801;
+                width:352px;
+                height: 520px;
+                margin-bottom:0;
+                margin-left: 16px;
+                margin-right: 32px;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="encabezado">Encabezado</div>
+            <div id="contenido">
+                <div id="izq">Columna izq</div>
+                <div id="der">Columna der</div>
+            </div>
+            <div id="piepagina">Pie pagina</div>
+        </div>
+    </body>
+</html>
