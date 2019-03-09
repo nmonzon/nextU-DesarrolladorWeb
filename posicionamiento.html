@@ -10,19 +10,45 @@
                 width: 200px
             }
             #uno{
-                float: left;
+                position: absolute;
+                left: 100px;
+                top: 50px;
+                background-image: url(imagenes/atenea160x196.jpg);
+                height: 196px;
+                background-repeat: no-repeat;
+                background-size: cover; /*que cubra todo el tamaño, que se agrande*/
             }
             #dos{
-                float: right;
+                position: absolute;
+                left: 300px;
+                top: 250px;
+                background-image: url(imagenes/hades160x196.jpg);
+                height: 196px;
+                background-repeat: no-repeat;
+                background-size: cover; /*que cubra todo el tamaño, que se agrande*/
             }
             #tres{
-                clear: both; /*es como que lo hace flotar solo, sin que flote a su izq y der*/
+                position: absolute;
+                left: 500px;
+                top: 350px;
+                background-image: url(imagenes/poseidon160x196.jpg);
+                height: 196px;
+                background-repeat: no-repeat;
+                background-size: cover; /*que cubra todo el tamaño, que se agrande*/
+            }
+            #wrapper{
+                position: relative;
+                width: 800px;
+                height: 600px;
+                margin: 0 auto;
             }
         </style>
     </head>
     <body>
-        <div id="uno">Caja 1</div>
-        <div id="dos">Caja 2</div>
-        <div id="tres">Caja 3</div>
+        <div id="wrapper">
+            <div id="uno">Caja 1</div>
+            <div id="dos">Caja 2</div>
+            <div id="tres">Caja 3</div>
+        </div>
     </body>
 </html>
