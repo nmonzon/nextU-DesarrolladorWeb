@@ -22,10 +22,10 @@ h1,h2,h3,h4,h5,h6{
 }
 h1{
     font-size: 2.5em; /*si te equivocas y pones espacios no te toma este tamaño*/
-    line-height: 2em;
+    /*line-height: 2em;*/
     color: white;
     /*border: 2px groove #f60;*/
-    margin: 0 4em;
+    /*margin: 0 4em;*/
     border-bottom: 5px solid #f63;
     
 }
@@ -53,14 +53,17 @@ a:active{/*cuando das click osea esta activo, podes mantener el click para verlo
 p{
     /*margin: 1em 2em 3em 4em; 1em es un margen de 16 px, Por trbl ->aca seria 16 arriba, 32px derecha, 48px abajo y 64px izq*/
     /*margin: 1em 2em;  aca 1em seria arriba abajo, 2em seria izquierda derecha.*/
-    margin-top: 1em;
+    /*margin-top: 1em;
     margin-left: 2em;
     margin-right: 3em;
-    margin-bottom: 1em;
+    margin-bottom: 1em;*/
+    border: 2px solid #000;
+    padding:1em 0; /* se suele mezclar confusion padding y margin, vamos a usar padding solo por ahora.*/
     /*border: 5px dashed #000; */ /*dashed son entre lineas punteadas, dotted es entre puntos punteados, dsp esta double para border doble*/
 }
 img{
     border: 10px solid #f60;
+    padding: 10px;
 }
 /*----------------IDENTIFICADORES----------------*/
 #contenido{
@@ -71,13 +74,15 @@ img{
     background-color: #E8B825; 
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
 }
 #equivalentes{
     background-color: #FFA60C;
     font-family: 'Courier New', Courier, monospace;
 }
 #piepagina{
-    background-color: #E87B42;       
+    background-color: #E87B42;
+    padding: 20px;     
 }
 
 
