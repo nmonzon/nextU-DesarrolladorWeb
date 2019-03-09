@@ -1,0 +1,130 @@
+/* 
+contenido:FFE828
+encabezado:E8B825
+equivalente:FFA60C
+piepagina:E87B42
+auxiliar:FF6640
+*/
+
+
+/*----------------ETIQUETAS----------------*/
+*{
+    margin: 0;
+}
+body{
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;/*el times new roman esta entre '' por tener espacios*/
+    color: white !important;
+}
+h1{
+    font-size: 2.5em; /*si te equivocas y pones espacios no te toma este tamaño*/
+    /*line-height: 2em;*/
+    color: black;
+    /*border: 2px groove #f60;*/
+    /*margin: 0 4em;*/
+    border-bottom: 5px solid #f63;
+}
+h2{
+    font-size: 200%; /*este % es respecto al tamaño base de la fuente que es 16, asique seria de 32 para 200%*/
+}
+a{
+    text-decoration: none; /*le quita el subrayado*/
+}
+a:link{/*a:link son los anclas aun no visitados*/
+    color: #fff;
+}
+a:visited{
+    color: red;
+}
+a:hover{/*cuando esta el cursor encima*/
+    color: blue;
+    text-decoration: underline;
+}
+a:active{/*cuando das click osea esta activo, podes mantener el click para verlo tmb*/
+    color: white;
+    background-color: orange;
+}
+
+p{
+    /*margin: 1em 2em 3em 4em; 1em es un margen de 16 px, Por trbl ->aca seria 16 arriba, 32px derecha, 48px abajo y 64px izq*/
+    /*margin: 1em 2em;  aca 1em seria arriba abajo, 2em seria izquierda derecha.*/
+    /*margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 3em;
+    margin-bottom: 1em;*/
+    /*border: 2px solid #000;*/
+    padding:1em 0;  /*se suele mezclar confusion padding y margin, vamos a usar padding solo por ahora.*/
+    /*border: 5px dashed #000; */ /*dashed son entre lineas punteadas, dotted es entre puntos punteados, dsp esta double para border doble*/
+}
+img{
+    border: 10px solid black;
+}
+/*----------------IDENTIFICADORES----------------*/
+#contenido{
+    width: 800px;
+    margin: 0 auto; /*el auto lo centra a izquierda y derecha en este caso*/
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;       
+}
+#menu li{
+    display: inline;
+    margin: 0;
+}
+#menu{
+    display: none;
+}
+#menu a {
+    color: #000;
+    background-color: #ffeda0;
+    padding: 4px 8px 4px 8px;
+    border: 1px solid #8c8c8c;
+}
+#menu a:hover, #diosa #op2 a{
+    text-decoration: none;
+    color: #000;
+    background-color: pink;
+    border-bottom: none;
+}
+#encabezado{
+    background-color: white; 
+    padding: 20px;
+    padding-bottom: 0;
+}
+#articulo{
+    background-color:white; 
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    padding-top: 10px;
+}
+#equivalentes{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#piepagina{
+    background-color: white;
+    padding: 20px;     
+}
+#validador{
+    display: none
+}
+
+/*----------------CLASES----------------*/
+.resaltar{
+    font-style: italic;
+}
+
+/*----------------REGLAS ANIDADAS----------------*/
+#equivalentes a{
+    text-decoration: underline;
+}
+
+ol li{
+    list-style: decimal;
+}
+ol ol li{
+    list-style: lower-alpha;
+}
