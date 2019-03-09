@@ -1,5 +1,6 @@
 <html>
     <head>
+        <meta charset="utf-8">
         <title>formato fijo</title>
         <!---->
         <style>
@@ -10,9 +11,16 @@
             html,body{
                 background-color: #fff;
             }
+            body{
+                background-image: url(imagenes/fondos/fondo4.jpg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-attachment: fixed;
+                height: 800px;
+            }
             #wrapper{
                 width: 960px;
-                height: 700px;
+                height: 660px;
                 background-color: #ff0;
                 margin: 0 auto;
             }
@@ -21,7 +29,7 @@
                 background-color: #f29f05;
             }
             #contenido{
-                height: 520px;
+                height: 560px;
                 background-color: #f2B705;
             }
             #piepagina{
@@ -30,7 +38,7 @@
             }
             #izq{
                 float: left;
-                background-color: #401801;
+                /*background-color: #401801;*/
                 width:512px;
                 height: 520px;
                 margin-bottom:0;
@@ -40,7 +48,7 @@
             }
             #der{
                 float: right;
-                background-color: #401801;
+                /*background-color: #401801;*/
                 width:352px;
                 height: 520px;
                 margin-bottom:0;
@@ -48,16 +56,52 @@
                 margin-right: 32px;
                 margin-top: 0;
             }
+            /*---------CLASES------*/
+            .izquierda{
+                float: left;
+                margin: 10px;
+            }
+            .derecha{
+                float: right;
+                margin: 10px;
+            }
+            p{
+                padding-bottom: 10px;
+                font-size: 1.2em;
+            }
+            h1{
+                padding-top: 5px;
+                text-align: center;
+                letter-spacing: .8em;
+            }
+            h2{
+                padding:5px;
+                text-align: center;
+            }
+            h3{
+                text-align: center;
+                font-size:.8em;
+            }
         </style>
     </head>
     <body>
         <div id="wrapper">
-            <div id="encabezado">Encabezado</div>
+            <div id="encabezado"><h1>AFRODITA</h1><h2>MITOLOGIA GRIEGA</h2></div>
             <div id="contenido">
-                <div id="izq">Columna izq</div>
-                <div id="der">Columna der</div>
+                <div id="izq">
+                    <h2>Afrodita Urania y Afrodita Pandemos</h2>
+                    <p><img src="imagenes/afrodita208x312.jpg" class="izquierda"> Afrodita es, en la mitologÌa griega, la diosa del amor, la lujuria, la belleza, la sexualidad y la reproducciÛn.</p>
+                    <p>Aunque a menudo se alude a ella en la cultura moderna como ´la diosa del amorª, es importante seÒalar que normalmente no era el amor en el sentido cristiano o rom·ntico, sino especÌficamente Eros (atracciÛn fÌsica o sexual). Su equivalente romana es la diosa Venus.</p>
+                    <p>Afrodita tiene numerosas equivalentes: Inanna en la mitologÌa sumeria, AstartÈ en la fenicia, Turan en la etrusca y Venus en la romana. </p>
+                    <p>La ësurgida de la espumaí Afrodita naciÛ del mar, cerca de Pafos (Chipre) despuÈs de que Crono cortase durante la Titanomaquia los genitales a Urano con una hoz adamantina y los arrojase tras Èl al mar. En su TeogonÌa, HesÌodo cuenta que los genitales ´fueron luego llevados por el piÈlago durante mucho tiempo. </p>
+                    <p>Fuente: wikipedia</p>
+                </div>
+                <div id="der"><h2>Orígenes</h2>
+                    <p><img src="imagenes/afrodita160x196.jpg" class="derecha"> A su alrededor surgÌa del miembro inmortal una blanca espuma y en medio de ella naciÛ una doncellaª ya adulta.</p>
+                    <p> Este mito de Venus (el nombre romano de Afrodita) nacida adulta, Venus AnadiÛmena (ëVenus saliendo del marí), fue una de las representaciones icÛnicas de Afrodita, famosa por la admiradÌsima pintura de Apeles, hoy perdida, pero descrita por Plinio el Viejo en su Naturalis Historia.</p>
+                    <p>Por esto, Afrodita es de una generaciÛn anterior a la de Zeus. Homero cuenta en el libro V de la IlÌada otra versiÛn sobre su origen, seg˙n la cual serÌa hija de Dione, quien era la diosa oracular original (´Dioneª significa simplemente ëdiosaí,  ëdiosaí, el genitivo de ´Zeusª) en DÛdona. </p></div>
             </div>
-            <div id="piepagina">Pie pagina</div>
+            <div id="piepagina"><h3>Pie pagina&copy; Todos los derechos reservados</h3></div>
         </div>
     </body>
 </html>
