@@ -20,14 +20,12 @@
             }
             #wrapper{
                 width: 80%;
-                max-width: 1024px;
-                min-width: 460px;
                 height: 660px;
                 background-color: #ff0;
                 margin: 0 auto;
             }
             #encabezado{
-                height: 100px;
+                height: 80px;
                 background-color: #f29f05;
             }
             #contenido{
@@ -35,14 +33,14 @@
                 background-color: #f2B705;
             }
             #piepagina{
-                height: 80px;
+                height: 20px;
                 background-color: #733702;
             }
             #izq{
                 float: left;
                 /*background-color: #401801;*/
                 width:60%;
-                height: 520px;
+                height: 560px;
                 margin-bottom:0;
                 margin-left: 2%;
                 margin-right: 2%;
@@ -52,7 +50,7 @@
                 float: right;
                 /*background-color: #401801;*/
                 width:34%;
-                height: 520px;
+                height: 560px;
                 margin-bottom:0;
                 margin-right: 2%;
                 margin-top: 0;
@@ -61,12 +59,12 @@
             .izquierda{
                 float: left;
                 margin: 10px;
-                width: 35%;
+                
             }
             .derecha{
                 float: right;
                 margin: 10px 30px 10px 10px;
-                width: 85%;
+                
             }
             p{
                 padding-bottom: 10px;
@@ -84,6 +82,65 @@
             h3{
                 text-align: center;
                 font-size:.8em;
+            }
+            @media only screen and (max-width:460px){
+                #wrapper{
+                    width: 320px;
+                    height: auto;
+                }
+                #izq{
+                    width: 90%;
+                    height: auto;
+                    clear: both;
+                }
+                #der{
+                    width: 90%;
+                    height: auto;
+                    clear: both;
+                }
+                #contenido{
+                    height: 1700px;
+                }
+            }
+            @media only screen and (max-width:461px) and (max-width: 768px){
+                #wrapper{
+                    width: 90%;
+                    height: auto;
+                }
+                p{
+                    font-size: .9em;
+                }
+                h1{
+                    font-size: 1.1em;
+                }
+                h2{
+                    font-size: 1em;
+                }
+                #izq{
+                    width: 90%;
+                    height: auto;
+                    clear: both;
+                }
+                #der{
+                    width: 90%;
+                    height: auto;
+                    clear: both;
+                }
+                #contenido{
+                    height: 1000px;
+                }
+                #encabezado{
+                    height: 60px;
+                    background-color:#6F0;
+                }
+            }
+            @media only screen and (min-width:769){
+                #wrapper{
+                width:80%;
+                height:660px;
+                background-color:#ff0;
+                margin:0 auto;
+            }
             }
         </style>
     </head>
