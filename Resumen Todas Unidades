@@ -1,0 +1,55 @@
+* FONT SIZE font-size: 200%; /*este % es respecto al tamaño base de la fuente que es 16, asique seria de 
+32 para 200%*/
+
+* PADDING/MARGIN Manejar solo padding a divs, a los elementos internos como img y parrafos quitarles 
+margin y padding podria ser poner algo asi: *{margin:0}.  Usa el padding en el parrafo en lo que es vertical
+
+* AUTO: para centrar. por ejemplo margin: 0 auto --> aca aplica a izq y der poniendo ej una img centrada.
+Para explicarlo agarro un div y le puso width 70%, y con el margin 0 auto lo centro. Si no ponia el auto
+iba a quedar 70% pero desde la izq.
+
+*BACKGROUND: cuando pones background images, te va a pasar: que la imagen al ser chica se empiece a repetir
+(background-repeat: no repeat). Otra cosa es que agregas la imagen y se queda arriba a la izq, para 
+que quede centrada y ocupe toda la pag pones(background-position: center y background-size: 100%). El 
+background-atachment: fixed lo que hace es que si empezas a bajar la imagen de fondo no se mueva(no sube,
+no baja.)
+
+*COMO HACER MENU NAVEGACION es una lista (li) que tiene un display: inline. Para separar estos elementos
+pones &nbsp | &nbsp. Dsp para centrarlo le pones text-align: center
+
+*FLOTACION: Si pones por ejemplo una imagen y un parrafo se van a poner uno abajo del otro, con float podes
+hacer que uno flote a la izq, y el otro a la derecha. Con clear: both; /*es como que lo hace flotar solo, 
+sin que flote a su izq y der*/
+
+
+***************************************GENERAL*********************************************************
+position: absolute; Ej en una img. Quedara siempre en el mismo lugar, si su contenedor cambia de lugar
+esta img no le da bola. La manera que se mueva con su contenedor es que el div tenga position relative
+
+position: fixed. queda fija aunque le des un fucking scroll
+
+
+
+***************************************NAV BARS***************************************
+Armar el navbar? display: inline;
+
+***************************************COMUNICACION ENTRE ARCHIVOS***************************************
+Poner el .css en otro archivo? <link href="css/main.css" rel="stylesheet" type="text/css" />
+
+***************************************TIPS*********************************************************
+/* Definite los colores a usar en tu pagina.
+contenido:FFE828
+encabezado:E8B825
+equivalente:FFA60C
+piepagina:E87B42
+*/
+
+***************************************FUENTES*********************************************************
+Tamaño fuentes? font-size: 250%; o sino 2.5em;
+alineacion? text-align: center;
+espaciado entre letras? letter-spacing: 5px;
+alto de las fuentes? line-height: 2em;
+tipo fuente? font-family: 'Times New Roman'
+
+***************************************IMAGENES*********************************************************   
+background-size: cover; -->que cubra todo el tamaño, que se agrande
